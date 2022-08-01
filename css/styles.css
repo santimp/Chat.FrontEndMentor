@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: var(--app-background);
+    font-size: 100%;
+    font-family: 'Rubik', sans-serif;
+}
+:root{
+    --pale-violet:hsl(276, 100%, 81%);
+    --chat-color-left:hsl(276, 55%, 52%);
+    --chat-color-right:hsl(271, 15%, 43%);
+    --placeholder:hsl(206, 6%, 79%);
+    --main-heading-text:hsl(271, 36%, 24%);
+    --paragraph: hsl(270, 7%, 64%);
+
+    --gradient-color-right:hsl(293, 100%, 63%);
+    --gradient-color-left:hsl(264, 100%, 61%);
+
+    --app-background:hsl(270, 20%, 96%);
+    --submit-button-background:hsl(271, 36%, 24%);
+    --radio-button-outline: hsl(289, 100%, 72%);
+}
+.border{
+    background-color: white;
+    height: 37.7rem;
+    position: relative;
+    border-radius: 25px;
+    width: 19.5rem;
+    left: 1.6rem;
+}
+
+section{
+    background-color: var(--app-background);
+    border-radius: 20px;
+    color: white;
+    font-size: 0.8rem;
+    justify-content: center;
+    margin: 3rem;
+    text-align: center;
+    position: relative;
+    top: 0.8rem;
+    right: 2.2rem;
+    width: 18rem;
+    
+}
+
+.header{
+    background: linear-gradient(to right, hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem;
+}
+.header h2{
+    font-weight: 500;
+}
+.header i{
+    font-size: 1rem;
+    margin-left: 1rem;
+    position: relative;
+    top: 1rem;
+}
+.header span{
+    display: block;
+    font-weight: 200;
+    text-align: start;
+}
+.header img{
+    border: 1px solid;
+    border-radius: 50px;
+    max-width: 3rem;
+}
+.chat , .chat div{
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+.dogwalker{
+    background-color: hsla(276, 72%, 75%, 0.195);
+    color: var(--chat-color-left);
+    border-radius: 10px;
+    font-size: 0.6rem;
+    max-width: 10rem;
+    padding: 8px;
+    text-align: start;
+}
+.owner{
+    background-color: white;
+    color: var(--chat-color-right);
+    border-radius: 10px;
+    box-shadow: 0px 0.4px 2px rgba(0, 0, 0, 81%);
+    font-size: 0.6rem;
+    margin-left: 42%;
+    max-width: 10rem;
+    text-align: start;
+    padding: 8px;
+}
+#price{
+    background: linear-gradient(to right, hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    border-radius: 10px;
+    display: flex;
+    font-size: 0.6rem;
+    font-weight: 100rem;
+    height: 40px;
+    justify-content: space-around;
+    padding-top:15px ;
+    text-align: start;
+    width: 80%;
+}
+#price i{
+    margin-right: 0.5rem;
+}
+#price b{
+    font-size: 0.8rem;
+    margin-top: -0.1rem;
+}
+footer{
+    padding: 0.5rem;
+}
+footer form{
+    border-radius: 30px;
+    color: var(--submit-button-background);
+}
+footer form input{
+    border: 0px none;
+    border-radius: 50px;
+    color: var(--placeholder);
+    padding: 10px;
+    width: 100%;
+}
+footer form i{
+    bottom: 1.9rem;
+   display: block;
+   font-size: 1.6rem;
+   left: 7rem;
+   position: relative;
+}
+h1{
+    color:var(--main-heading-text);
+    margin-top: 3rem;
+    text-align: center;
+}
+.app-footer{
+    color: var(--paragraph);
+    line-height: 1.8rem;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    text-align: center;
+}
